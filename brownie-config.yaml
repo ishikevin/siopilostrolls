@@ -1,0 +1,11 @@
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+dependencies:
+  # [ORGANIZATION]/[REPOSITORY]@[VERSION]
+  - OpenZeppelin/openzeppelin-contracts@4.8.0
+
+networks:
+  default: poly-mainnet-alchemy
