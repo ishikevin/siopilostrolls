@@ -8,8 +8,8 @@ account = accounts.add(config["wallets"]["from_key"])
 trolls = SIOPILOSTROLLS[-1]
 
 # minting 1500 per mint
-start = 200
-end = 250
+start = 601
+end = 700
 
 with open("metadata/extracted/all.json", "r") as upload_urls:
     data = json.load(upload_urls)
